@@ -94,3 +94,4 @@
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/MyProfilePage.genruntimeconfig.cache
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/ref/MyProfilePage.dll
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/i8vobw9km4-dymnkruo5y.gz
+/Users/haseshin/MyProfilePage/obj/Debug/net9.0/MyProfilePage.sourcelink.json

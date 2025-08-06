@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "5kkfRMmO5Xk=",
+  "dgSpecHash": "Q4sD4ONItDw=",
   "success": true,
   "projectFilePath": "/Users/haseshin/MyProfilePage/MyProfilePage.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/haseshin/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
+    "/Users/haseshin/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/haseshin/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
+    "/Users/haseshin/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "/Users/haseshin/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "/Users/haseshin/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
