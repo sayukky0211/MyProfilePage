@@ -4,7 +4,6 @@ WORKDIR /app
 # ソリューションと csproj をコピー
 COPY *.sln ./
 COPY *.csproj ./
-COPY NuGet.Config ./  # プライベートフィード用（必要に応じて）
 RUN dotnet restore --verbosity detailed
 
 # 残りのファイルをコピーしてビルド
