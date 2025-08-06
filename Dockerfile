@@ -1,15 +1,18 @@
-# ビルド用のイメージ
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build-env
 WORKDIR /app
 
-# プロジェクトファイルをコピーしてリストア＆ビルド
+# ソリューションと csproj をコピー
+COPY *.sln ./
+COPY *.csproj ./
+COPY NuGet.Config ./  # プライベートフィード用（必要に応じて）
+RUN dotnet restore --verbosity detailed
+
+# 残りのファイルをコピーしてビルド
 COPY . ./
 RUN dotnet publish -c Release -o out
 
-# 実行用の軽量ランタイムイメージ
-FROM mcr.microsoft.com/dotnet/aspnet:7.0
+# ランタイムイメージ
+FROM mcr.microsoft.com/dotnet/aspnet:6.0
 WORKDIR /app
-COPY --from=build /app/out .
-
-# アプリ実行コマンド（プロジェクト名.dllに変えてね！）
+COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "MyProfilePage.dll"]
