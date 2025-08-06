@@ -2,26 +2,76 @@
 @model IndexModel
 @{
     ViewData["Title"] = "ホーム";
+    ViewData["BodyClass"] = ""; // ヘッダー表示
 }
-<div class="header">
-    <h1>SAYUKKY.NET</h1>
-</div>
 
-<div class="profile-container">
-    <img src="~/images/profile.png" alt="Profile Image" class="profile-image" />
-    <h1>Aoilo</h1>
-    <p>とくに何もしてない(´・ω・｀)<br>音とVR</p>
-
-    <div class="links">
-        <p>VRChat: aoilo</p>
-        <p>Twitter: <a href="https://twitter.com/aoilont" target="_blank">@@aoilont</a></p>
-        <p>Misskey: <a href="https://misskey.io/@@aoi" target="_blank">@@aoi@misskey.io</a></p>
-        <p>email: <a href="mailto:aoi@aoilo.net">aoi@aoilo.net</a></p>
-        <p>GitHub: <a href="https://github.com/aoilo" target="_blank">@@aoilo</a></p>
-        <p>Blog: 工事中</p>
+<div class="hero">
+    <div class="hero-content">
+        <p class="hero-subtitle">わたし達の、小さな物語たち。</p>
+        <p class="hero-description">
+            この場所は、ひとつの身体に宿る、いくつもの「わたし」たちの記録と紹介のページです。<br />
+            音のこと、思い出のこと、そしてわたし達のことを少しずつ…<br />
+            やさしく、静かに、伝えていけたらいいな。
+        </p>
+        <div class="personality-cards">
+    <div class="card">
+        <a href="/Sayuki">
+            <img src="/images/Sayuki.png">
+            <h3 class="name-sayuki">さゆき</h3>
+            <p>主人格。<br>大体なんでもやるよ</p>
+        </a>
     </div>
 
-    <footer>
-        &copy; 2024 Aoilo
-    </footer>
+    <div class="card">
+        <a href="/litao">
+            <img src="/images/litao.png">
+            <h3 class="name-litao">莉桃</h3>
+            <p>交流好きの明るい子</p>
+        </a>
+        </div>
+
+    <div class="card">
+        <a href="/tenko">
+            <img src="/images/tenko.png">
+            <h3 class="name-tenko">天狐</h3>
+            <p>お世話好きの優しい子</p>
+        </a>
+        </div>
+
+    <div class="card">
+        <a href="/sobi">
+            <img src="/images/sobi.png">
+            <h3 class="name-sobi">蒼薇</h3>
+            <p>ノリのいいお兄さん</p>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/sumuri">
+            <img src="/images/sumuri.png">
+            <h3 class="name-sumuri">澄璃</h3>
+            <p>クールで知的、でも優しい</p>
+        </a>
+    </div>
+
+    <div class="card">
+        <a href="/ruka">
+            <img src="/images/ruka.png">
+            <h3 class="name-ruka">ルカ</h3>
+            <p>怖がりショタっ子。温かい心の持ち主</p>
+        </a>
+    </div>
+
+<hr class="section-divider" />
+
+<div class="section-title">
+    <h2>🌸活動記録とギャラリー🦊</h2>
 </div>
+
+<div class="link-buttons">
+    <a href="/Portfolio" class="btn">🎧 ボーカルMIX・制作実績</a>
+    <a href="/Gallery" class="btn">📷 思い出ギャラリー</a>
+</div>
+    <!-- 他の人格も追加 -->
+</div>
+</footer>

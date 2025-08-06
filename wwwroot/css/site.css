@@ -1,6 +1,5 @@
-/* 背景ヘッダー */
 .header {
-    background-image: url('/images/header.png');
+    background-image: url('/images/背景用.jpeg');
     background-size: cover;
     background-position: center;
     height: 50vh;
@@ -8,16 +7,61 @@
     justify-content: center;
     align-items: center;
 }
-
 /* ヘッダー内のタイトル */
 .header h1 {
     color: #fafafa; /* 水色 (SkyBlue) */
     font-size: 4rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字の立体感 */
-    font-family: "Poppins", "Helvetica", "Arial", sans-serif;
-    text-transform: uppercase;
+    font-family: "Courier New"
+    text-transform: none;
     letter-spacing: 2px;
+}
+
+.dashed-underline {
+    border-bottom: 4px dashed #000000;
+    display: inline-block; /* ← これ大事！文字にぴったり合わせたいなら */
+    padding-bottom: 2px;   /* ← 任意：下の余白 */
+}
+
+.personality-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.card {
+    width: 200px;
+    background: #e3faff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #000000;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+    font-size: 1.2rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #000000;
+    padding: 0 10px 10px;
 }
 
 
@@ -47,6 +91,73 @@ body {
     margin-bottom: 20px;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
 }
+.hero {
+    background-size: cover;
+    padding: 80px 20px;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 0;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-bottom: 3px dashed #7fffff;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #e0f7ff;
+}
+
+.hero-description {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    color: #f0f0f0;
+}
+
+.hero-button {
+    background-color: #7fffff;
+    color: #000;
+    padding: 10px 25px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+    background-color: #5ddada;
+}
+
+.site-footer {
+    text-align: center;
+    padding: 20px 0;
+    color: #999;
+    font-size: 0.9rem;
+}
 
 h1 {
     font-size: 2.5em;
@@ -62,13 +173,188 @@ a {
     color: #38bdf8; /* 水色リンク */
     text-decoration: none;
 }
-
-a:hover {
-    text-decoration: underline;
+/* site.css など */
+.btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-footer {
-    margin-top: 40px;
-    font-size: 0.9em;
-    color: #94a3b8; /* 薄グレー */
+body.no-header header,
+body.no-header aside {
+  display: none;
 }
+.card a h3.name-sayuki {
+    color: #08ade3; /* さゆきの色：明るい水色 */
+    font-weight: bold !important;
+}
+
+.card a h3.name-litao {
+    color: #ff99cc; /* かぐらの色：やさしいピンク */
+    font-weight: bold !important;
+}
+
+.card a h3.name-tenko {
+    color: #ffcc00; /* あかりの色：明るい黄色 */
+    font-weight: bold !important;
+}
+.card a h3.name-sobi {
+    color: #2e18bf; /* あかりの色：明るい黄色 */
+    font-weight: bold !important;
+}
+
+.card a h3.name-sumuri {
+    color: #286899; /* あかりの色：明るい黄色 */
+    font-weight: bold !important;
+}
+
+h3.name-ruka {
+    color: #A9D159; /* あかりの色：明るい黄色 */
+    font-weight: bold !important;
+}
+.section-divider {
+  margin: 3em auto 1em;
+  border: none;
+  border-top: 2px dashed #7fffff;
+  width: 80%;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-size: 3em;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.link-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}
+
+.link-buttons .btn {
+  background-color: #7fffff;
+  color: #000;
+  padding: 0.8em 1.5em;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: all 0.2s ease;
+}
+
+.link-buttons .btn:hover {
+  transform: translateY(-2px);
+  background-color: #6eeeee;
+}
+.bg-fullscreen {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.overlay-text {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 30vh;
+  color: #7fffff;
+}
+.typing {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 0.15em solid #7fffff;
+  width: 13ch;
+  display: inline-block;
+  animation: typing 6s steps(13, end) infinite, blink 0.7s infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+    opacity: 1;
+  }
+  65% {
+    width: 13ch;
+    opacity: 1;
+  }
+  85% {
+    width: 13ch;
+    opacity: 1;
+  }
+  95%{
+    opacity: 0;
+  }
+  100% {
+    width: 0;
+    opacity: 0;
+  }
+}
+@keyframes blink {
+  0%, 100% { border-color: transparent; }
+  50% { border-color: #7fffff; }
+}
+
+
+
+
+.footer {
+  text-align: center;
+  position: relative;
+  z-index: 10;
+  margin-top: 50px;
+  padding: 20px 0;
+  color: #fff;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #7fffff;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #ffffff;
+}
+
+.footer {
+  margin-top: 50px;
+  padding: 20px 0;
+  color: #fff;
+  text-align: center; /* 全体は中央寄せ */
+}
+
+.profile-container h2 {
+    margin: 0;
+    padding: 0;
+    background-color: #0f172a; /* 濃いネイビー */
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: inline-block;      /* 中央寄せ＋中身を左揃えに見せる */
+  text-align: left;           /* 中身の左寄せ */
+  line-height: 1.8;           /* 行間調整（お好み） */
+}
+
+.introduce .social-icons a {
+  display: block;
+  text-decoration: none;
+  color: #7fffff;
+  margin: 5px 0;
+  font-size: 1.1em;
+  transition: color 0.3s ease;
+}
+
+.introduce .social-icons a:hover {
+  color: #ffffff;
+}
+
+

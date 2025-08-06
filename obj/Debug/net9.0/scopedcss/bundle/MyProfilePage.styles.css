@@ -47,3 +47,22 @@ button.accept-policy[b-3omd29eg2k] {
   white-space: nowrap;
   line-height: 60px;
 }
+.footer[b-3omd29eg2k] {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.footer .social-icons a[b-3omd29eg2k] {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #7fffff;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover[b-3omd29eg2k] {
+  color: #ffffff;
+}
+

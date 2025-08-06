@@ -46,3 +46,22 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+.footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px 0;
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+.footer .social-icons a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #7fffff;
+  transition: color 0.3s ease;
+}
+
+.footer .social-icons a:hover {
+  color: #ffffff;
+}
+

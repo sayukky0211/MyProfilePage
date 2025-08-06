@@ -24,12 +24,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/haseshin/MyProfilePage/Pages/Gallery.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvR2FsbGVyeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/haseshin/MyProfilePage/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/haseshin/MyProfilePage/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[/Users/haseshin/MyProfilePage/Pages/Portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9ydGZvbGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/haseshin/MyProfilePage/Pages/Sayuki.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2F5dWtpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/haseshin/MyProfilePage/Pages/Shared/_ValidationScriptsPartial.cshtml]

@@ -3,11 +3,36 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Sayukky.net</title>
+    <title>@ViewData["Title"] - Kagura's fam</title>
     <link rel="stylesheet" href="~/css/site.css" />
+
 </head>
 <body>
-    @RenderBody()
+    @if (ViewData["HideHeader"] as bool? != true)
+    {
+        <div class="header">
+            <h1 class="dashed-underline">Kagura's fam</h1>
+        </div>
+    }
+
+    <div class="container">
+        @RenderBody()
+    </div>
+
     @RenderSection("Scripts", required: false)
+
+    @if (ViewData["HideFooter"] as bool? != true)
+    {
+        <footer class="footer">
+            <div class="social-icons">
+                <p>VRChat:<a href="https://vrchat.com/home/user/usr_0750a45d-8647-4fc6-9fe6-53618f26489e" target="_blank">@@Sayukky</a></p>
+                <p>Twitter:<a href="https://twitter.com/Kagura_posse" target="_blank">@@Kagura_posse</a></p>
+                <p>Twitter活動垢:<a href="https://twitter.com/Sayukky0211" target="_blank">@@Sayukky0211</a></p>
+            </div>
+            <br><br>
+            <p>&copy; 2025 Sayuki</p>
+        </footer>
+    }
 </body>
+
 </html>
