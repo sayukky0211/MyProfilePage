@@ -1,0 +1,15 @@
+@page
+@model sumuriModel
+@{
+    ViewData["Title"] = "澄璃";
+}
+
+<div class="profile-container sumuri-profile">
+    <img src="~/images/sumuri.png" alt="Profile Image" class="profile-image" />
+     <h1 style="margin-bottom: 20px;"><span style="color: #286899; background: linear-gradient(transparent 80%, #d79766 60%);"> 澄璃のプロフィール</span></h1>
+    <div class="profile-info-box"><h2>Name:澄璃(Sumuri)<br>call:なんでも。<br>Age:17<br>Gender:♀<br>B-day:11/27<br>Chara:クール、知的、繊細、優しい<br>Like:人間観察<br>Hate:だるいこと<br>Role:観察者人格、記憶保持人格、保護人格<br></h2>
+    <h3>あたしの口調のせいで不快にさせたらごめん。<br>ま、気長によろしく〜</h3>
+    </div>
+</div>
+@await Html.PartialAsync("_HomeButton")
+

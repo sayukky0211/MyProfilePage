@@ -1,9 +1,0 @@
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/rpswa.dswa.cache.json
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/MyProfilePage.GeneratedMSBuildEditorConfig.editorconfig
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/MyProfilePage.AssemblyInfoInputs.cache
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/MyProfilePage.AssemblyInfo.cs
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/MyProfilePage.csproj.CoreCompileInputs.cache
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/MyProfilePage.MvcApplicationPartsAssemblyInfo.cache
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/MyProfilePage.RazorAssemblyInfo.cache
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/MyProfilePage.RazorAssemblyInfo.cs
-/Users/haseshin/MyProfilePage/obj/Debug/net7.0/MyProfilePage.sourcelink.json

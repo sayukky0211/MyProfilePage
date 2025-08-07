@@ -13,7 +13,7 @@
     font-size: 4rem;
     font-weight: bold;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 文字の立体感 */
-    font-family: "Courier New"
+    font-family: "Courier New";
     text-transform: none;
     letter-spacing: 2px;
 }
@@ -89,7 +89,7 @@ body {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+  box-shadow: 2px 2px 4px gray;
 }
 .hero {
     background-size: cover;
@@ -343,7 +343,14 @@ h3.name-ruka {
   text-align: left;           /* 中身の左寄せ */
   line-height: 1.8;           /* 行間調整（お好み） */
 }
-
+.profile-container .sumuri-name {
+  color: #286899; 
+  background: linear-gradient(transparent 60%, #d79766 60%)"
+}
+.sumuri-name {
+  color: #286899; 
+  background: linear-gradient(transparent 60%, #d79766 60%);
+}
 .introduce .social-icons a {
   display: block;
   text-decoration: none;
@@ -356,5 +363,235 @@ h3.name-ruka {
 .introduce .social-icons a:hover {
   color: #ffffff;
 }
+.cute-home-button {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  background: linear-gradient(to right, #ffdde1, #fccde2);
+  color: #5c3a60; 
+  border: 2px solid #f6b9c4;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.4);
+  transition: all 0.3s ease;
+}
 
+.cute-home-button:hover {
+  background: linear-gradient(to right, #ffe5ec, #ffc1d3);
+  color: #8c4a66;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(255, 182, 193, 0.6);
+}
 
+.sayuki-profile {
+    background: linear-gradient(to bottom right, #e0f7ff, #f0ffff);
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    color: #08ade3;
+}
+
+.sayuki-profile h1 {
+    font-size: 2em;
+    color: white;
+    background: linear-gradient(to right, #08ade3, #ff8dd4);
+    padding: 12px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #7eefff;
+    text-align: center;
+}
+
+.sayuki-profile .profile-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    border: 2px solid #7fffff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 192, 255, 0.2);
+    position: relative;
+}
+
+.sayuki-profile .profile-container::before {
+    content: "🦊";
+    font-size: 40px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    transform: rotate(-10deg);
+}
+
+.litao-profile {
+    background: linear-gradient(to bottom right, #ffe6f0, #fff0f5);
+    font-family: fantasy,sans-serif;
+    color: #ff3399;
+}
+
+.litao-profile h1 {
+    font-size: 2em;
+    background: #ffccf9;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ff99cc;
+    text-align: center;
+}
+
+.litao-profile .profile-container {
+    border: 2px dashed #ff99cc;
+    background-color: #fff0f5;
+    padding: 20px;
+    border-radius: 20px;
+}
+.ruka-profile {
+    background: linear-gradient(to top, #f0fff4, #e6f7ff);
+    font-family: "klee", sans-serif;
+    color: #4b6e2e;
+}
+
+.ruka-profile h1 {
+    border-bottom: 2px solid #A9D159;
+    padding-bottom: 5px;
+}
+
+.ruka-profile .profile-container {
+    border: 1px solid #cce0cc;
+    background-color: #f6fff5;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 2px 6px #e0f2e9;
+}
+.sobi-profile {
+    background: linear-gradient(to bottom, #f0f0ff, #e6e6fa);
+    font-family: "Georgia", serif;
+    color: #4b4b7a;
+}
+
+.sobi-profile h1 {
+    background: linear-gradient(to right, #a9d159, #7a89c2);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 3px #555;
+}
+
+.sobi-profile .profile-container {
+    border-left: 5px solid #a9d159;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+}
+.sumuri-profile {
+    background: linear-gradient(to right, #e0f7fa, #d7eaf2);
+    font-family: "Tsukushi A Round Gothic", sans-serif;
+    color: #286899;
+}
+
+.sumuri-profile h1 {
+    background: linear-gradient(transparent 80%, #d79766 60%);
+    display: inline-block;
+    padding: 5px;
+}
+
+.sumuri-profile .profile-container {
+    border: 1px solid #286899;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.tenko-profile {
+    background: url('/images/washi-texture.png'), linear-gradient(to bottom, #fffaf0, #fff5e6);
+    font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+    color: #7b3e00;
+}
+
+.tenko-profile h1 {
+    background: #ffcc00;
+    color: #fff;
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 2px solid #c39700;
+    display: inline-block;
+    box-shadow: 0 0 10px #ffcc00;
+}
+
+.tenko-profile .profile-container {
+    border: 2px solid #c39700;
+    background-color: rgba(255, 255, 240, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px #ffeecc;
+}
+
+.profile-info-box h2{
+  background: linear-gradient(145deg, #fdfbfb, #ebedee); /* やさしいグラデ背景 */
+  border: 2px dashed #ff8dd4; /* やわらかい枠線 */
+  padding: 1.5em;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-top: 1em;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1em;
+  color: #444;
+  backdrop-filter: blur(4px); /* 対応ブラウザなら背景ぼかし */
+  transition: transform 0.3s ease;
+}
+
+.profile-info-box:hover h2 {
+  transform: scale(1.02);
+}
+.profile-info-box h3 {
+  background: #f0f8ff;
+  padding: 0.8em;
+  border-left: 5px solid #08ade3;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+.gallery-container {
+    padding: 30px;
+    background: #fff5fa;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(255, 192, 203, 0.2);
+    max-width: 900px;
+    margin: auto;
+}
+
+.gallery-title {
+    font-size: 2.5em;
+    color: #ff69b4;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.gallery-description {
+    font-size: 1.1em;
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.7;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 10px;
+}
+
+.gallery-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+}
+.image-caption {
+    font-size: 0.95em;
+    color: black; /* ←ここを変更！ */
+    font-style: italic;
+    line-height: 1.4;
+}

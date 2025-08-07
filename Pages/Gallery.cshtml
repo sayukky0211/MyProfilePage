@@ -3,6 +3,28 @@
 @{
     ViewData["Title"] = "思い出ギャラリー";
 }
-<h1>📷 思い出ギャラリー</h1>
-<p>活動中のスクリーンショットや大切な画像たちを置いていく予定です。</p>
-<!-- ギャラリー形式の表示にしていこう！ -->
+
+<div class="gallery-container">
+    <h1 class="gallery-title">📷 思い出ギャラリー</h1>
+    <p class="gallery-description">
+        ここには、配信中のスクリーンショットや<br />
+        かけがえのない思い出たちを集めていく予定です。<br />
+        少しずつ増えていくこの場所を、一緒に見守ってくださいね。
+    </p>
+
+
+    <div class="gallery-card">
+        <img src="/images/memory1.png" alt="思い出1" class="gallery-image" />
+        <p class="image-caption">
+            VRC始めた時に色々教えてくれた皆様！<br>
+            超優しくてあったかい時間だった！
+        </p>
+    </div>
+    <div class="gallery-card">
+        <img src="/images/memory2.png" alt="思い出2" class="gallery-image" />
+        <p class="image-caption">イケメンのお兄さんに案内してもらった綺麗なとこ！</p>
+    </div>
+    <h1 style="color:black">！順次追加予定！</h1>
+
+    @await Html.PartialAsync("_HomeButton")
+</div>

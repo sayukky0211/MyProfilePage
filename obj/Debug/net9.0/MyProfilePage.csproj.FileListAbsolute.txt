@@ -22,7 +22,6 @@
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/scopedcss/bundle/MyProfilePage.styles.css
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/scopedcss/projectbundle/MyProfilePage.bundle.scp.css
-/Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/i8vobw9km4-wn3p0g1qht.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/bya20jehk3-61n19gt1b8.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/yiialrd8b4-xtxxf3hu2r.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/0738ios6mt-bqjiyaj88i.gz
@@ -84,8 +83,8 @@
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/10e0a9x5i7-muycvpuwrr.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/tv8fxonup1-87fc7y1x7t.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/kek4q7cz9o-mlv21k5csn.gz
-/Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/cwrn95i1pi-00b60n7emy.gz
-/Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/tsa37673eo-00b60n7emy.gz
+/Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/cwrn95i1pi-s6ocr84f4s.gz
+/Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/tsa37673eo-s6ocr84f4s.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/staticwebassets.build.json
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/staticwebassets.build.json.cache
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/staticwebassets.development.json
@@ -95,3 +94,4 @@
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/MyProfilePage.pdb
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/MyProfilePage.genruntimeconfig.cache
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/ref/MyProfilePage.dll
+/Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/i8vobw9km4-b3l7ubqmd6.gz

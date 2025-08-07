@@ -1,0 +1,15 @@
+@page
+@model litaoModel
+@{
+    ViewData["Title"] = "莉桃";
+}
+
+<div class="profile-container litao-profile">
+    <img src="~/images/litao.png" alt="Profile Image" class="profile-image" />
+    <h1 style="margin-bottom: 20px;"><span style="color: #ff99cc;">🎀莉桃のぷろふ！🎀</span></h1>
+    <div class="profile-info-box"><h2>Name:莉桃<br>call:たおでもしゃおたおでも！！<br>Age:14<br>Gender:女の子<br>B-day:7月7日！<br>Chara:テンションマックス！！<br>Like:歌、ゲーム、動物と戯れること！<br>Hate:めんどくさいこと！<br>Role:交流！アシスト人格！<br></h2>
+    <h3>いっっぱい話そぉぉ！！！！<br>誰でもどんな話題でも大歓迎！！！</h3>
+    </div>
+</div>
+@await Html.PartialAsync("_HomeButton")
+

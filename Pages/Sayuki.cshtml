@@ -1,13 +1,29 @@
 @page
-@model SayukiModel
+@model tenkoModel
 @{
     ViewData["Title"] = "さゆき";
 }
 
-<div class="profile-container">
-    <img src="~/images/sayuki.png" alt="Profile Image" class="profile-image" />
-    <h1>さゆきの自己紹介！！</h1>
-    <span style="border: 1px solid #ff7f7f;"><h2>Name:さゆき<br>call:お好きに呼んで！！<br>Age:19<br>Gender:性別不合(身体は男性で心が女性寄り)<br>Chara:マイペース<br>Like:歌、読書、ゲーム<br>Hate:特になし<br>Role:主人格<br></span></h2>
-    <h3>気分屋でいつでも好きなことしてる人です！！ぜひ仲良くしてください！！<br>マジで友達募集中です...（ ;  ; ）</h3>
-
+<div class="profile-container sayuki-profile">
+    <img src="~/images/sayuki.png" alt="Profile Image" class="profile-image" style="border-radius: 50%; width: 150px; display: block; margin: auto; border: 3px solid #ffc4e1;" />
+    <h1 style="margin-bottom: 20px;"><span>
+  さゆきの自己紹介！！
+  </span>
+</h1>
+<div class="profile-info-box">
+        <h2>
+            Name:さゆき<br>
+            call:お好きに呼んで！！<br>
+            Age:19<br>
+            Gender:性別不合(身体は男性で心が女性寄り)<br>
+            B-day:2月11日<br>
+            Chara:マイペース<br>
+            Like:歌、読書、ゲーム<br>
+            Hate:特になし<br>
+            Role:主人格<br>
+        </h2>
+        <h3>気分屋でいつでも好きなことしてる人です！！ぜひ仲良くしてください！！<br>マジで友達募集中です...（ ;  ; ）</h3>
 </div>
+    </span>
+</div>
+@await Html.PartialAsync("_HomeButton")

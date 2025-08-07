@@ -1,0 +1,15 @@
+@page
+@model tenkoModel
+@{
+    ViewData["Title"] = "天狐";
+}
+
+<div class="profile-container tenko-profile">
+    <img src="~/images/tenko.png" alt="Profile Image" class="profile-image" />
+    <h1 style="margin-bottom: 20px;"><span style="color: #7b3e00;">天狐の自己紹介部屋</span></h1>
+    <div class="profile-info-box"><h2>Name:天狐<br>call:天狐で良いぞ？<br>Age:？？<br>Gender:女性<br>B-day:4月10日<br>Chara:のんびり、献身的、お人好し<br>Like:散歩、日向ぼっこ、寝ること<br>Hate:特になし<br>Role:幻想人格、仲介人格、保護人格<br></h2>
+    <h3>妾こわい狐じゃないからの...仲良くしてくれると嬉しいのじゃ！<br>甘えたくなったら妾を頼ってくれて良いのじゃぞ？</h3>
+    </div>
+</div>
+@await Html.PartialAsync("_HomeButton")
+

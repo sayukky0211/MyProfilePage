@@ -32,8 +32,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/haseshin/MyProfilePage/Pages/litao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvbGl0YW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/haseshin/MyProfilePage/Pages/Portfolio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9ydGZvbGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/haseshin/MyProfilePage/Pages/ruka.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvcnVrYS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/haseshin/MyProfilePage/Pages/Sayuki.cshtml]
@@ -42,6 +50,22 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/haseshin/MyProfilePage/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/haseshin/MyProfilePage/Pages/sobi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvc29iaS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/haseshin/MyProfilePage/Pages/sumuri.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvc3VtdXJpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/haseshin/MyProfilePage/Pages/tenko.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVua28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/haseshin/MyProfilePage/Pages/_HomeButton.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvbWVCdXR0b24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/haseshin/MyProfilePage/Pages/_ViewImports.cshtml]
