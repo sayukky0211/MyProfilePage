@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-public class rukaModel : PageModel
+public class aoiModel : PageModel
 {
     public void OnGet()
     {
