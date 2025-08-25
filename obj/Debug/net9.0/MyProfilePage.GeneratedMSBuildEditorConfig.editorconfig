@@ -20,6 +20,10 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
+[/Users/haseshin/MyProfilePage/Pages/aoi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvYW9pLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/haseshin/MyProfilePage/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -36,8 +40,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvbGl0YW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/haseshin/MyProfilePage/Pages/nokusu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvbm9rdXN1LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/haseshin/MyProfilePage/Pages/Portfolio.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9ydGZvbGlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/haseshin/MyProfilePage/Pages/rion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvcmlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/haseshin/MyProfilePage/Pages/ruka.cshtml]
@@ -52,6 +64,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/haseshin/MyProfilePage/Pages/sion.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvc2lvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/haseshin/MyProfilePage/Pages/sobi.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvc29iaS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,6 +78,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [/Users/haseshin/MyProfilePage/Pages/tenko.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvdGVua28uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/haseshin/MyProfilePage/Pages/yoruhi.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMveW9ydWhpLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/haseshin/MyProfilePage/Pages/_HomeButton.cshtml]
