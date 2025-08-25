@@ -654,7 +654,7 @@ h3.name-yoruhi {
 }
 .aoi-profile {
     background: linear-gradient(to right, #e0f7fa, #d4eb07);
-    font-family: "Tsukushi A Round Gothic", sans-serif;
+    font-family: "Georgia", sans-serif;
     color: #286899;
 }
 
@@ -673,7 +673,7 @@ h3.name-yoruhi {
 }
 .sion-profile {
     background: linear-gradient(to right, #000000, #5963d1);
-    font-family: "Tsukushi A Round Gothic", sans-serif;
+    font-family: "Georgia", sans-serif;
     color: #286899;
 }
 
@@ -692,7 +692,7 @@ h3.name-yoruhi {
 }
 .nokusu-profile {
     background: linear-gradient(to right, #fffff0, #ffffff);
-    font-family: "Tsukushi A Round Gothic", sans-serif;
+    font-family: "YuGothic", sans-serif;
     color: #286899;
 }
 
@@ -711,7 +711,7 @@ h3.name-yoruhi {
 }
 .rion-profile {
     background: linear-gradient(to right, #ffffff, #727576);
-    font-family: "Tsukushi A Round Gothic", sans-serif;
+    font-family: "ヒラギノ角ゴ ProN W6", sans-serif;
     color: #286899;
 }
 
@@ -730,7 +730,7 @@ h3.name-yoruhi {
 }
 .yoruhi-profile {
     background: linear-gradient(to right, #e0f7fa, #b359d1);
-    font-family: "Tsukushi A Round Gothic", sans-serif;
+    font-family: "Tsukushi A Round Gothic", fantasy ;
     color: #286899;
 }
 
