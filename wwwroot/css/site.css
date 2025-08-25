@@ -243,6 +243,26 @@ h3.name-ruka {
   color: #A9D159;
   font-weight: bold !important;
 }
+h3.name-aoi {
+  color: #1e07eb;
+  font-weight: bold !important;
+}
+h3.name-nokusu {
+  color: #a5a7a2;
+  font-weight: bold !important;
+}
+h3.name-rion {
+  color: #181f09;
+  font-weight: bold !important;
+}
+h3.name-sion {
+  color: #5963d1;
+  font-weight: bold !important;
+}
+h3.name-yoruhi {
+  color: #b359d1;
+  font-weight: bold !important;
+}
 
 .section-divider {
   margin: 3em auto 1em;
@@ -633,7 +653,7 @@ h3.name-ruka {
   transition: transform 0.3s ease;
 }
 .aoi-profile {
-    background: linear-gradient(to right, #e0f7fa, #d7eaf2);
+    background: linear-gradient(to right, #e0f7fa, #d4eb07);
     font-family: "Tsukushi A Round Gothic", sans-serif;
     color: #286899;
 }
@@ -652,7 +672,7 @@ h3.name-ruka {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .sion-profile {
-    background: linear-gradient(to right, #e0f7fa, #d7eaf2);
+    background: linear-gradient(to right, #000000, #5963d1);
     font-family: "Tsukushi A Round Gothic", sans-serif;
     color: #286899;
 }
@@ -671,7 +691,7 @@ h3.name-ruka {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .nokusu-profile {
-    background: linear-gradient(to right, #e0f7fa, #d7eaf2);
+    background: linear-gradient(to right, #fffff0, #ffffff);
     font-family: "Tsukushi A Round Gothic", sans-serif;
     color: #286899;
 }
@@ -690,7 +710,7 @@ h3.name-ruka {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .rion-profile {
-    background: linear-gradient(to right, #e0f7fa, #d7eaf2);
+    background: linear-gradient(to right, #ffffff, #727576);
     font-family: "Tsukushi A Round Gothic", sans-serif;
     color: #286899;
 }
@@ -709,7 +729,7 @@ h3.name-ruka {
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 .yoruhi-profile {
-    background: linear-gradient(to right, #e0f7fa, #d7eaf2);
+    background: linear-gradient(to right, #e0f7fa, #b359d1);
     font-family: "Tsukushi A Round Gothic", sans-serif;
     color: #286899;
 }
