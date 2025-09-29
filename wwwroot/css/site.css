@@ -154,7 +154,7 @@ p, h1, h2, h3 {
 
 @media screen and (max-width: 480px) {
   .hero-description {
-    white-space: normal;  /* 狭い画面は改行許可 */
+    white-space: pre-line;  /* 狭い画面は改行許可 */
     overflow-x: visible;
     word-break: keep-all;  /* 日本語の単語内改行を防ぐ */
   overflow-wrap: break-word; 
