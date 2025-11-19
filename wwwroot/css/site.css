@@ -238,6 +238,10 @@ body.no-header aside {
   color: #286899;
   font-weight: bold !important;
 }
+.card a h3.name-saku {
+  color: #5a515d;
+  font-weight: bold !important;
+}
 
 h3.name-ruka {
   color: #A9D159;
@@ -261,6 +265,10 @@ h3.name-sion {
 }
 h3.name-yoruhi {
   color: #b359d1;
+  font-weight: bold !important;
+}
+h3.name-saku {
+  color: #5a515d;
   font-weight: bold !important;
 }
 
@@ -469,7 +477,8 @@ h3.name-yoruhi {
   .nokusu-profile h1,
   .rion-profile h1,
   .yoruhi-profile h1,
-  .tenko-profile h1 {
+  .tenko-profile h1
+  .saku-profile h1 {
     font-size: 1.3em !important;
     padding: 10px !important;
   }
@@ -484,7 +493,8 @@ h3.name-yoruhi {
   .sion-profile .profile-container
   .nokusu-profile .profile-container
   .rion-profile .profile-container
-  .yoruhi-profile .profile-container{
+  .yoruhi-profile .profile-container
+  .saku-profile .profile-container{
     padding: 15px !important;
     border-radius: 10px !important;
   }
@@ -741,6 +751,42 @@ h3.name-yoruhi {
 }
 
 .yoruhi-profile .profile-container {
+    border: 1px solid #286899;
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.profile-info-box:hover h2 {
+  transform: scale(1.02);
+}
+
+.profile-info-box h3 {
+  background: #f0f8ff;
+  padding: 0.8em;
+  border-left: 5px solid #08ade3;
+  border-radius: 10px;
+  margin-top: 1em;
+}
+.responsive-text {
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: min(5vw, 24px);
+  display: block;
+}
+.saku-profile {
+    background: linear-gradient(to right, #000000, #474548);
+    font-family: "Tsukushi A Round Gothic", fantasy ;
+    color: #286899;
+}
+
+.saku-profile h1 {
+    background: linear-gradient(transparent 80%, #d79766 60%);
+    display: inline-block;
+    padding: 5px;
+}
+
+.saku-profile .profile-container {
     border: 1px solid #286899;
     background-color: #ffffff;
     padding: 25px;

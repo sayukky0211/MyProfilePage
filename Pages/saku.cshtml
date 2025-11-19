@@ -1,0 +1,14 @@
+@page
+@model sakuModel
+@{
+    ViewData["Title"] = "朔";
+}
+
+<div class="profile-container saku-profile">
+    <img src="~/images/saku.png" alt="Profile Image" class="profile-image" />
+    <h1 style="margin-bottom: 20px;"><span style="color: #b359d1;">朔's page</h1>
+    <div class="profile-info-box"><h2>Name:朔(saku)<br>call:さくでいい<br>Age:15<br>Gender:無性<br>B-day:11月12日<br>Chara:冷静、無表情、静寂<br>Like:静かな場所、図書館<br>Hate:特にない。<br>Role:感情遮断型の保護人格<br></h2>
+    <h3>なかよくしてね、よろしく</h3>
+    </div>
+</div>
+@await Html.PartialAsync("_HomeButton")
