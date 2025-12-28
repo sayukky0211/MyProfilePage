@@ -84,6 +84,7 @@
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/10e0a9x5i7-muycvpuwrr.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/tv8fxonup1-87fc7y1x7t.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/kek4q7cz9o-mlv21k5csn.gz
+/Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/43037sxotj-biyf4orxik.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/cwrn95i1pi-s6ocr84f4s.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/compressed/tsa37673eo-s6ocr84f4s.gz
 /Users/haseshin/MyProfilePage/obj/Debug/net9.0/staticwebassets.build.json

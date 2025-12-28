@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links | sayukky</title>
+    <style>
+        /* 全体のリセットと背景 */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            width: 90%;
+            max-width: 450px;
+            padding: 40px 20px;
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px); /* 背景をぼかしてオシャレに */
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+        }
+
+        /* プロフィール画像 */
+        .profile-img {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            margin-bottom: 15px;
+        }
+
+        h1 {
+            font-size: 1.4rem;
+            margin-bottom: 30px;
+            letter-spacing: 0.05em;
+        }
+
+        /* リンクカードの基本スタイル */
+        .link-card {
+            display: block;
+            background-color: #fff;
+            color: #444;
+            text-decoration: none;
+            padding: 16px;
+            margin-bottom: 16px;
+            border-radius: 12px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(0,0,0,0.05);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.04);
+        }
+
+        /* 各SNSのホバーカラー（お好みで調整してください） */
+        .link-card:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* 戻るボタン */
+        .back-home {
+            display: inline-block;
+            margin-top: 20px;
+            font-size: 0.85rem;
+            color: #777;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .back-home:hover {
+            color: #000;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="images/your-icon.png" alt="Profile" class="profile-img">
+    <h1>sayukky's Links</h1>
+
+    <a href="https://twitter.com/Sayu_foxsinger" class="link-card" target="_blank" rel="noopener">X (Twitter)</a>
+    <a href="https://linevoom.line.me/user/_ddzXOvwPNI1sYX70LnSwMYDQJK1npVF4l2kMIxA?&utm_medium=osx&utm_source=desktop&utm_campaign=OA_Profile" class="link-card" target="_blank" rel="noopener">LINE</a>
+    <a href="https://youtube.com/@Sayu_foxsinger" class="link-card" target="_blank" rel="noopener">YouTube</a>
+    <a href="https://TikTok.com/@Sayu_foxsinger" class="link-card" target="_blank" rel="noopener">TikTok</a>
+    <a href="https://sayukky0211.onrender.com/Portfolio" class="link-card" target="_blank" rel="noopener">ポートフォリオ</a>
+    
+    <a href="/" class="back-home">← Back to Home</a>
+</div>
+
+</body>
+</html>

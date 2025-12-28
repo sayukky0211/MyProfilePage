@@ -1,0 +1,138 @@
+@page
+@model linksModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links | sayukky</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <style>
+    body {
+        font-family: 'Helvetica Neue', Arial, sans-serif;
+        /* 背景を少し青みのあるグレーに。白いコンテナを際立たせます */
+        background: linear-gradient(135deg, #f0f4f8 0%, #d7e1ec 100%) !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        margin: 0;
+    }
+
+    .links-container {
+        text-align: center;
+        width: 90%;
+        max-width: 420px;
+        padding: 50px 30px;
+        /* グラスモーフィズム（透過感） */
+        background: rgba(255, 255, 255, 0.85);
+        backdrop-filter: blur(15px);
+        border-radius: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.05);
+    }
+
+    .profile-image-links {
+        width: 110px;
+        height: 110px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 5px solid #fff;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        transition: transform 0.3s ease;
+    }
+    
+    .profile-image-links:hover {
+        transform: rotate(5deg) scale(1.05);
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 35px;
+        color: #444;
+        letter-spacing: 1px;
+    }
+
+    /* リンクカード：デフォルトの影を強くして視認性をアップ */
+    .link-card-minimal {
+        display: block;
+        background: #ffffff;
+        color: #393939;
+        text-decoration: none;
+        padding: 16px;
+        margin-bottom: 15px;
+        border-radius: 16px;
+        font-weight: 600;
+        /* 境界をはっきりさせるために影を強化 */
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(0, 0, 0, 0.05);
+        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    /* ホバー時：水色の発光エフェクト */
+    .link-card-minimal:hover {
+        transform: translateY(-3px);
+        background: #ffffff;
+        /* 水色のネオンのような光の影 */
+        box-shadow: 0 8px 20px rgba(127, 255, 255, 0.6);
+        color: #00bcd4 !important;
+        border-color: #7fffff;
+    }
+
+    .custom-home-btn {
+        display: inline-block;
+        margin-top: 30px;
+        padding: 12px 30px;
+        /* ホームボタンも少し柔らかいダークカラーに */
+        background: #444; 
+        color: #fff !important;
+        border-radius: 50px;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 0.9rem;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .custom-home-btn:hover {
+        background: #00bcd4;
+        transform: scale(1.05);
+        box-shadow: 0 5px 15px rgba(0, 188, 212, 0.4);
+    }
+
+    .footer-text {
+        margin-top: 25px;
+        font-size: 0.8rem;
+        color: #999;
+    }
+</style>
+</head>
+<body>
+
+<div class="links-container">
+    <img src="~/images/your-icon.png" alt="Profile" class="profile-image-links">
+    
+    <h1>sayukky's Links</h1>
+
+    <div class="links-list">
+        <a href="https://twitter.com/Sayu_foxsinger" class="link-card-minimal" target="_blank" rel="noopener">X (Twitter)</a>
+        <a href="https://linevoom.line.me/user/_ddzXOvwPNI1sYX70LnSwMYDQJK1npVF4l2kMIxA" class="link-card-minimal" target="_blank" rel="noopener">LINE</a>
+        <a href="https://youtube.com/@@Sayu_foxsinger" class="link-card-minimal" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://TikTok.com/@@Sayu_foxsinger" class="link-card-minimal" target="_blank" rel="noopener">TikTok</a>
+        <a href="https://sayukky0211.onrender.com/Portfolio" class="link-card-minimal" target="_blank" rel="noopener">ポートフォリオ</a>
+    </div>
+
+    <a asp-page="/Index" class="custom-home-btn">🏠 Back to Home</a>
+
+    <div class="footer-text">
+        &copy; 2025 Sayuki
+    </div>
+</div>
+
+</body>
+</html>

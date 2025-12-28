@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links | sayukky</title>
+    <link rel="stylesheet" href="style.css"> <style>
+        /* リンクまとめ用の簡易スタイル */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
+        h1 { font-size: 1.2rem; margin-bottom: 20px; }
+        .link-card {
+            display: block;
+            background-color: #fff;
+            color: #333;
+            text-decoration: none;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+        .link-card:hover {
+            transform: translateY(-2px);
+            background-color: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img src="your-icon.png" alt="Profile" class="profile-img">
+    <h1>sayukky's Links</h1>
+
+    <a href="https://twitter.com/あなたのID" class="link-card" target="_blank">X (Twitter)</a>
+    <a href="https://instagram.com/あなたのID" class="link-card" target="_blank">Instagram</a>
+    <a href="https://youtube.com/@あなたのID" class="link-card" target="_blank">YouTube</a>
+    <a href="https://github.com/あなたのID" class="link-card" target="_blank">GitHub</a>
+    
+    <a href="/" style="font-size: 0.8rem; color: #888; text-decoration: none;">← Back to Home</a>
+</div>
+
+</body>
+</html>
