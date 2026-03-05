@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/haseshin/MyProfilePage/MyProfilePage.csproj": {}
+    "/Users/haseshin/MyProfilePages/MyProfilePage.csproj": {}
   },
   "projects": {
-    "/Users/haseshin/MyProfilePage/MyProfilePage.csproj": {
+    "/Users/haseshin/MyProfilePages/MyProfilePage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/haseshin/MyProfilePage/MyProfilePage.csproj",
+        "projectUniqueName": "/Users/haseshin/MyProfilePages/MyProfilePage.csproj",
         "projectName": "MyProfilePage",
-        "projectPath": "/Users/haseshin/MyProfilePage/MyProfilePage.csproj",
+        "projectPath": "/Users/haseshin/MyProfilePages/MyProfilePage.csproj",
         "packagesPath": "/Users/haseshin/.nuget/packages/",
-        "outputPath": "/Users/haseshin/MyProfilePage/obj/",
+        "outputPath": "/Users/haseshin/MyProfilePages/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/haseshin/.nuget/NuGet/NuGet.Config"

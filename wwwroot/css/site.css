@@ -2,6 +2,9 @@
 /* 全体基本スタイル */
 /* ----------------- */
 
+/* 1. まずGoogle Fontsを読み込みます（CSSの先頭に記述） */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -242,6 +245,18 @@ body.no-header aside {
   color: #5a515d;
   font-weight: bold !important;
 }
+.card a h3.name-sakura {
+  color: #E56A9D;
+  font-weight: bold !important;
+}
+.card a h3.name-chino {
+  color: #C98E55;
+  font-weight: bold !important;
+}
+.card a h3.name-shiratuki {
+  color: #2DB5E6;
+  font-weight: bold !important;
+}
 
 h3.name-ruka {
   color: #A9D159;
@@ -268,6 +283,18 @@ h3.name-yoruhi {
   font-weight: bold !important;
 }
 h3.name-saku {
+  color: #5a515d;
+  font-weight: bold !important;
+}
+h3.name-sakura {
+  color: #5a515d;
+  font-weight: bold !important;
+}
+h3.name-shiratuki {
+  color: #5a515d;
+  font-weight: bold !important;
+}
+h3.name-chino {
   color: #5a515d;
   font-weight: bold !important;
 }
@@ -478,6 +505,9 @@ h3.name-saku {
   .rion-profile h1,
   .yoruhi-profile h1,
   .tenko-profile h1
+.shiratuki-profile h1
+.sakura-profile h1
+.chino-profile h1
   .saku-profile h1 {
     font-size: 1.3em !important;
     padding: 10px !important;
@@ -494,6 +524,9 @@ h3.name-saku {
   .nokusu-profile .profile-container
   .rion-profile .profile-container
   .yoruhi-profile .profile-container
+  .sakura-profile .profile-container
+  .chino-profile .profile-container
+  .shiratuki-profile .profile-container
   .saku-profile .profile-container{
     padding: 15px !important;
     border-radius: 10px !important;
@@ -793,6 +826,125 @@ h3.name-saku {
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
+.sakura-profile {
+    background: linear-gradient(135deg, #ffd9e6, #f7a8c4);
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    color: #6b3a4f;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.sakura-profile h1 {
+    font-size: 1.8em;
+    color: white;
+    background: #f06292;
+    padding: 12px;
+    border-radius: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.sakura-profile .profile-container {
+    background: rgba(255,255,255,0.95);
+    border: 2px solid #f8a5c2;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.sakura-profile .profile-container::before {
+    content: "🌸";
+    font-size: 36px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    opacity: 0.7;
+}
+.chino-profile {
+    background: linear-gradient(135deg, #f5e6d3, #e8c8a0);
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    color: #5a4634;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.chino-profile h1 {
+    font-size: 1.8em;
+    color: white;
+    background: #c08b5c;
+    padding: 12px;
+    border-radius: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.chino-profile .profile-container {
+    background: rgba(255,255,255,0.95);
+    border: 2px solid #d6a87c;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.chino-profile .profile-container::before {
+    content: "🧸";
+    font-size: 36px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    opacity: 0.8;
+}
+
+.shiratuki-profile {
+    background: linear-gradient(135deg, #6ec5ff, #7b6cff);
+    /* 全体は元のフォントのまま */
+    font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+    color: #027ddb;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.shiratuki-profile h1 {
+    /* ここでドットフォントを指定 */
+    font-family: "DotGothic16", cursive;
+    
+    /* ドットをくっきりさせる設定 */
+    -webkit-font-smoothing: none;
+    -moz-osx-font-smoothing: grayscale;
+    
+    font-size: 1.8em;
+    color: white;
+    background: #4a4bd1;
+    padding: 12px;
+    border-radius: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.shiratuki-profile .profile-container {
+    background: rgba(255,255,255,0.92);
+    border: 2px solid #7aa7ff;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 15px;
+    position: relative;
+    color: #2c2c44;
+}
+
+/* 以下、変更なし */
+.shiratuki-profile .profile-container::before {
+    content: "👾";
+    font-size: 36px;
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    opacity: 0.8;
+}
+
+
+
 .profile-info-box:hover h2 {
   transform: scale(1.02);
 }

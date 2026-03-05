@@ -1,0 +1,14 @@
+@page
+@model chinoModel
+@{
+    ViewData["Title"] = "チノ";
+}
+
+<div class="profile-container chino-profile">
+    <img src="~/images/chino.png" alt="Profile Image" class="profile-image" />
+    <h1 style="margin-bottom: 20px;"><span style="color: #F5E6D3;">チノのとこ</h1>
+    <div class="profile-info-box"><h2>Name:チノ<br>call:チノだよ<br>Age:5さい<br>Gender:女の子<br>B-day:12月28日<br>Chara:とても幼い、素直で感覚優先。安心できると甘えんぼ<br>Like:やさしい声、抱っこされる感覚、ぬくぬく、繰り返し遊び<br>Hate:こわい声、急かされること、ひとりぼっち<br>Role:幼児人格・感情保持人格<br></h2>
+    <h3>みんながんばっててえらいんだよ？<br>いいこいいこ....ね？</h3>
+    </div>
+</div>
+@await Html.PartialAsync("_HomeButton")

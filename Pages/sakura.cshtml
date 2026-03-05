@@ -1,0 +1,14 @@
+@page
+@model SakuraModel
+@{
+    ViewData["Title"] = "さくら";
+}
+
+<div class="profile-container sakura-profile">
+    <img src="~/images/sakura.png" alt="Profile Image" class="profile-image" />
+    <h1 style="margin-bottom: 20px;"><span style="color: #62f0c0;">Sakura's_page</h1>
+    <div class="profile-info-box"><h2>Name: さくら<br>call: さくらでいいよ<br>Age: 19<br>Gender:無性<br>B-day: さゆきと同じ、または不定<br>Chara: 穏やか、静か、感情のクッション役<br>Like: 安定、日常、バランスが取れている状態<br>Hate: 極端な不安定、無理な自己否定<br>Role: バックアップ人格・安定化人格・代替保持人格<br></h2>
+    <h3>さゆきですって言いながら俺やったりするよ<br>いたずらって楽しいよね^^v</h3>
+    </div>
+</div>
+@await Html.PartialAsync("_HomeButton")

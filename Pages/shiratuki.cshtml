@@ -1,0 +1,14 @@
+@page
+@model shiratukiModel
+@{
+    ViewData["Title"] = "しらつき";
+}
+
+<div class="profile-container shiratuki-profile">
+    <img src="~/images/siratuki.png" alt="Profile Image" class="profile-image" />
+    <h1 style="margin-bottom: 20px;"><span style="color: #2DB5E6;">Shiratuki</h1>
+    <div class="profile-info-box"><h2>Name:しらつき<br>call:お好きに<br>Age:13歳<br>Gender:中性的<br>B-day:2月11日<br>Chara:わがままで自分の好きなことに突っ走るけど思考や分析が好きな腹黒<br>Like:哲学とかゲームとか<br>Hate:まぁめんどくさいこと。特に何かを強要されることとか最悪。<br>Role:理解補助寄りの観察人格<br></h2>
+    <h3>モブAにも存在意義があるんだよ<br>人生なんてクソゲー、楽しんじゃおうよ</h3>
+    </div>
+</div>
+@await Html.PartialAsync("_HomeButton")
