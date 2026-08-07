@@ -1,0 +1,33 @@
+@page
+@model amaneModel
+@{
+    ViewData["Title"] = "あまね";
+}
+
+<div class="profile-container amane-profile">
+    <img src="~/images/amane.png" alt="あまねのイメージ" class="profile-image" />
+
+    <h1 style="margin-bottom: 20px;">
+        <span style="color: #0be56a;">あまねのこと</span>
+    </h1>
+
+    <div class="profile-info-box">
+        <h2>
+            Name: あまね<br>
+            call: あまね<br>
+            Age: 17<br>
+            Gender: 女<br>
+            B-day: 7月6日<br>
+            Chara: 穏やか、共感型<br>
+            Like: 紅茶、動物、カフェ、音楽<br>
+            HATE: <br>
+            Role: 癒し人格、調和人格
+        </h2>
+
+        <h3>
+            ゆっくり、いっしょに過ごそ？
+        </h3>
+    </div>
+</div>
+
+@await Html.PartialAsync("_HomeButton")

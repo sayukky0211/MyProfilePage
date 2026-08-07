@@ -257,6 +257,10 @@ body.no-header aside {
   color: #2DB5E6;
   font-weight: bold !important;
 }
+.card a h3.name-amane {
+  color: #e6b948;
+  font-weight: bold !important;
+}
 
 h3.name-ruka {
   color: #A9D159;
@@ -296,6 +300,10 @@ h3.name-shiratuki {
 }
 h3.name-chino {
   color: #5a515d;
+  font-weight: bold !important;
+}
+h3.name-amane {
+  color: #e6b948;
   font-weight: bold !important;
 }
 
@@ -508,7 +516,8 @@ h3.name-chino {
 .shiratuki-profile h1
 .sakura-profile h1
 .chino-profile h1
-  .saku-profile h1 {
+  .saku-profile h1
+  .amane-profile h1 {
     font-size: 1.3em !important;
     padding: 10px !important;
   }
@@ -527,6 +536,7 @@ h3.name-chino {
   .sakura-profile .profile-container
   .chino-profile .profile-container
   .shiratuki-profile .profile-container
+  .amane-profile .profile-container
   .saku-profile .profile-container{
     padding: 15px !important;
     border-radius: 10px !important;
@@ -942,7 +952,76 @@ h3.name-chino {
     right: 20px;
     opacity: 0.8;
 }
+.amane-profile {
+  /* 雨上がりをイメージした柔らかい背景 */
+  background: linear-gradient(135deg, #dfeee6, #f8f4ea);
+  font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", sans-serif;
+  color: #5a5348;
+  padding: 20px;
+  border-radius: 22px;
 
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.amane-profile h1 {
+
+  /* タイトルだけ少し優しい雰囲気に */
+  font-family: "Kiwi Maru", serif;
+
+  color: #ffffff;
+
+  background: linear-gradient(
+    90deg,
+    #7f9c8b,
+    #93b7a4
+  );
+
+  padding: 12px;
+
+  border-radius: 14px;
+
+  text-align: center;
+
+  letter-spacing: 1px;
+
+  box-shadow: 0 3px 10px rgba(0,0,0,.12);
+}
+
+.amane-profile .profile-container{
+
+  background: rgba(255,255,255,.88);
+
+  border: 1px solid #b9d3c4;
+
+  backdrop-filter: blur(6px);
+
+  padding:20px;
+
+  border-radius:18px;
+
+  margin-top:16px;
+
+  position:relative;
+
+  color:#5b5348;
+
+  line-height:1.8;
+}
+
+.amane-profile .profile-container::before{
+
+  content:"🍃";
+
+  position:absolute;
+
+  top:14px;
+
+  right:18px;
+
+  font-size:30px;
+
+  opacity:.65;
+}
 
 
 .profile-info-box:hover h2 {
